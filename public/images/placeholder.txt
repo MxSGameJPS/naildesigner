@@ -1,0 +1,24 @@
+### ESTA É UMA PASTA DE IMAGENS PARA O SITE VAL PINHEIRO NAILS ###
+
+Por favor, adicione as seguintes imagens nesta pasta:
+
+1. hero-bg.jpg - Imagem de fundo da seção principal
+2. esmaltacao.jpg - Imagem para o serviço de esmaltação em gel
+3. alongamento.jpg - Imagem para o serviço de alongamento em gel
+4. blindagem.jpg - Imagem para o serviço de blindagem
+5. pedicure.jpg - Imagem para o serviço de pedicure e spa dos pés
+
+Para mais detalhes sobre as imagens necessárias, consulte o arquivo:
+../../IMAGENS.md
+
+Ou consulte o arquivo README.md na raiz do projeto para instruções gerais.
+
+IMPORTANTE: 
+- Use imagens de alta qualidade para melhor aparência do site
+- Redimensione as imagens para os tamanhos recomendados
+- Certifique-se de usar apenas imagens com licença adequada para uso comercial
+
+Sugestões de sites para obter imagens gratuitas:
+- Unsplash (https://unsplash.com/s/photos/nails)
+- Pexels (https://www.pexels.com/search/nail-art/)
+- Freepik (https://www.freepik.com/search?format=search&query=manicure) 
