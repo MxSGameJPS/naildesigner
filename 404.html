@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página não encontrada - Val Pinheiro Nails</title>
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="icon" href="/public/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .error-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+      }
+      .error-container h1 {
+        font-size: 6rem;
+        color: var(--primary-color);
+        margin-bottom: 0;
+      }
+      .error-container h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+      }
+      .error-container p {
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        max-width: 600px;
+      }
+      .back-home {
+        margin-top: 20px;
+      }
+
+      /* Redirecionamento automático */
+      .redirect-message {
+        margin-top: 30px;
+        font-size: 0.9rem;
+        color: #666;
+      }
+    </style>
+    <script>
+      // Redirecionar para a página inicial após 5 segundos
+      setTimeout(function () {
+        window.location.href = "/";
+      }, 5000);
+    </script>
+  </head>
+  <body>
+    <div class="error-container">
+      <h1>404</h1>
+      <h2>Página não encontrada</h2>
+      <p>
+        Desculpe, a página que você está procurando não existe ou foi movida.
+      </p>
+      <a href="/" class="btn-primary back-home">Voltar para a página inicial</a>
+      <p class="redirect-message">
+        Você será redirecionado automaticamente em 5 segundos...
+      </p>
+    </div>
+  </body>
+</html>
