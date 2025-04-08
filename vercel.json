@@ -6,7 +6,7 @@
   ],
   "headers": [
     {
-      "source": "/(.*)",
+      "src": "/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "source": "/public/(.*)",
+      "src": "/public/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -24,5 +24,7 @@
       ]
     }
   ],
+  "buildCommand": false,
+  "outputDirectory": ".",
   "public": true
 }
